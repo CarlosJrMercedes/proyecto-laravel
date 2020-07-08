@@ -14,12 +14,15 @@ class CategoriesController extends Controller
     public function accesorios(){
         return view('categoriesAccesorios');
     }
+    
     public function hogar(){
         return view('categoriesHogar');
     }
+
     public function camaras(){
         return view('categoriesCamaras');
     }
+
     public function impresoras(){
         return view('categoriesImpresoras');
     }
